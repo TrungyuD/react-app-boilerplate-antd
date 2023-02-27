@@ -1,0 +1,35 @@
+@import 'src/styles/variable.scss';
+
+.modal-custom {
+  .ant-modal-content {
+    background: #ffffff;
+  }
+  .ant-modal-body {
+    padding: 40px 16px;
+    border-radius: 12px;
+    color: #ffffff;
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modal-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 20px;
+      color: #1f2024;
+    }
+  }
+}
+
+.ant-modal-close {
+  width: 30px !important;
+  height: 30px !important;
+
+  &:hover {
+    background: none !important;
+  }
+}

@@ -1,0 +1,49 @@
+.ant-notification {
+  .ant-notification-notice-message {
+    display: none !important;
+  }
+
+  .ant-notification-notice {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: unset;
+    color: unset;
+    border-radius: unset;
+    border: unset;
+    padding: unset;
+    width: fit-content;
+  }
+
+  .ant-notification-notice-close {
+    position: absolute;
+    display: block;
+    right: 12px;
+    top: unset;
+  }
+}
+
+.ant-notification-notice-description {
+  .toast-err {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: '1000px';
+    background: #ffe6de;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #353945;
+    border-radius: 8px;
+    border: 1px solid #ff6838;
+    padding: 4px 32px 4px 4px;
+    .img-wrong-wrapper {
+      padding: 8px;
+      background: #ff6838;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

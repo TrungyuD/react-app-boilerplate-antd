@@ -1,0 +1,105 @@
+@import '_variable.scss';
+
+// Display
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-align-end {
+  align-items: end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+// Typography
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.text-disabled {
+  color: #242835;
+  opacity: 0.5;
+}
+
+.slowlyScaleBottom {
+  animation-name: slowlyScale;
+  animation-duration: 0.3s;
+  transform-origin: bottom;
+}
+
+.slowlyScale {
+  animation-name: slowlyScale;
+  animation-duration: 0.3s;
+  transform-origin: top;
+}
+
+@keyframes slowlyScale {
+  from {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+// css scrollbar
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: linear-gradient(
+    226.51deg,
+    #ffffff 20.42%,
+    #dce8ff 99.91%
+  );;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 5px !important;
+  background: #c2c5d0;
+  border-radius: 10px;
+}
+
+/* for webkit browsers */
+::-webkit-scrollbar-thumb:active {
+  background-color: #ffffff;
+}
+
+/* for firefox */
+scrollbar-thumb:active {
+  background-color: #ffffff;
+}
+
+/* for firefox */
+scrollbar-thumb {
+  height: 5px !important;
+  background-color: #353a41;
+  border-radius: 10px;
+}

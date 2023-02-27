@@ -1,0 +1,16 @@
+.dropdown-container {
+  position: relative;
+  .wrapper {
+    position: absolute;
+    z-index: 1001;
+    width: 100%;
+  }
+
+  .top {
+    bottom: (calc(100% + 12px));
+  }
+
+  .bottom {
+    margin-top: 12px;
+  }
+}
